@@ -1,0 +1,9 @@
+nomanikram@Nomans-MacBook-Pro project-ml-microservice-kubernetes % ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "my-python-app" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+my-python-app                   1/1     Running   0          9s
+my-python-app-7598c5cf5-jdm4p   1/1     Running   0          2m27s
+python-app-6bf8bbd4bf-b694b     1/1     Running   0          2m27s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
