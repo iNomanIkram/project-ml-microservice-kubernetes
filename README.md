@@ -18,6 +18,13 @@ This is a machine learning api that's run using Kubernetes. The api is a pre-tra
 
 The application will be running on http://localhost:8000
 
+### Predict housing prices
+
+While the application is running, run `./make_predicion.sh` to make calls to the API
+
+### Upload Docker image to DockerHub
+After running `./run_docker.sh`, execute script`./upload_docker.sh` to upload image to DockerHub
+
 ### Project Files
 
 * __app.py:__ The Flask API 
