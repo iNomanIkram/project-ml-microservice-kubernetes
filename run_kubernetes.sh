@@ -11,7 +11,7 @@ dockerpath="nomanikram/my-python-app"
 kubectl run my-python-app\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80 --labels app=my-python-app
+    --port=80  --labels app=my-python-app
   
 
 # Step 3:
